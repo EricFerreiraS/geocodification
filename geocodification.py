@@ -7,7 +7,7 @@ import time
 
 filename = sys.argv[1]
 api = 'https://maps.googleapis.com/maps/api/geocode/json?address='
-key = ['AIzaSyCcaNivsVgF1iSDF5zSwZ3sKJ3JLP7jQVk','AIzaSyCJK4dg7NabAMFIwxPKyE2EICiPARah6lw', 'AIzaSyCcaNivsVgF1iSDF5zSwZ3sKJ3JLP7jQVk','AIzaSyAwdsKp74cwS5RJ73HS38oHDtVKw8ZAKgA','AIzaSyAhADEiuwuhs92u1pjC8n1ZTYB5b56yF7c']
+key = ['','AIzaSyCJK4dg7NabAMFIwxPKyE2EICiPARah6lw', 'AIzaSyCcaNivsVgF1iSDF5zSwZ3sKJ3JLP7jQVk','AIzaSyAwdsKp74cwS5RJ73HS38oHDtVKw8ZAKgA','AIzaSyAhADEiuwuhs92u1pjC8n1ZTYB5b56yF7c']
 
 f = open(filename, 'rb')
 g = open(filename+'_changed', 'wb')

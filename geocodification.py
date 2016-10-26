@@ -20,7 +20,7 @@ try:
 		resp = requests.get(api+endereco+'&key='+key)
 		if resp.status_code == 200:
 			value = json.loads(resp.content)
-			if value['status'] != 'ZERO_RESULTS' & value['status'] != 'OVER_QUERY_LIMIT':
+			if value['status'] != 'ZERO_RESULTS' and value['status'] != 'OVER_QUERY_LIMIT':
 				lat = value['results'][0]['geometry']['location']['lat']
 				lng = value['results'][0]['geometry']['location']['lng']
 				row.append(lat)
